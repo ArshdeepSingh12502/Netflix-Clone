@@ -1,0 +1,47 @@
+.first{
+    display: flex;
+    max-width: 80vw;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+span{
+    color: white;
+}
+.image1{
+    position: relative;
+}
+.image1 img{
+    width: 40vw;
+}
+.image1 video{
+    position: absolute;
+    left: 5vw;
+    top: 9vh;
+    z-index: -1;
+    width: 34vw;
+}
+.txt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.txt :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.txt :nth-child(2){
+    font-size: 24px;
+    font-weight: normal;
+    text-align: left;
+}
+.image2{
+    position: relative;
+}
+.video2{
+    position: absolute;
+    left: 8vw;
+    top: 6vh;
+    z-index: -1;
+    width: 27vw;
+}
